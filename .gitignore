@@ -1,0 +1,25 @@
+/build_local/
+/node_modules/
+/source/assets/build/
+/vendor/
+.DS_Store
+.env
+
+# Log file - the following switch allows to specify the file that will be
+# used to write all messages from simulation:  -l <filename>
+*.log
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+##### Linux
+*~
+
+# Thumbnails
+._*
