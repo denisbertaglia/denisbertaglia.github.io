@@ -52,7 +52,7 @@
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none">
                 <li>
-                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a> ♦.
+                    Built with <a target="jigsaw" href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a> ♦.
                 </li>
             </ul>
         </footer>
