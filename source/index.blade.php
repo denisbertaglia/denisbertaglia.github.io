@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 description: Olá, eu sou Denis.
 ---
 @extends('_layouts.main')
@@ -18,7 +18,8 @@ description: Olá, eu sou Denis.
         <ul class="flex flex-row justify-center list-none">
             <li>
                 <a class="hover:opacity-75" href="https://www.linkedin.com/in/denishb/" target="linkedin">
-                    <svg class="m-2" width="50" height="50" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="m-2" width="50" height="50" viewBox="0 0 48 48" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z"
                             fill="#0077B5" />
@@ -30,8 +31,9 @@ description: Olá, eu sou Denis.
             </li>
             <li>
                 <a class="hover:opacity-75" href="https://github.com/denisbertaglia" target="github">
-                    <svg class="m-2" width="50" height="50" id="Layer_1" version="1.1" viewBox="0 0 512 512" xml:space="preserve"
-                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="m-2" width="50" height="50" id="Layer_1" version="1.1" viewBox="0 0 512 512"
+                        xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g>
                             <circle cx="256" cy="256" fill="#333333" r="256" />
                             <g>
@@ -49,7 +51,7 @@ description: Olá, eu sou Denis.
     <article class="col-span-2 md:col-span-1  mt-4">
         <h1 class="text-xl">Desenvolvimento </h1>
         <p>
-            Sou desenvolvedor web com 4 anos de experiência com incluindo PHP, Laravel, MySql, Git, Html5, CSS3,
+            Sou desenvolvedor web com 4 anos de experiência, incluindo PHP, Laravel, MySql, Git, Html5, CSS3,
             Javascript, JQuery e Bootstrap. Ênfase em criação de aplicações com boa manutenibilidade e usabilidade.
         </p>
     </article>
