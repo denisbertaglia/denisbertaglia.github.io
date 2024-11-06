@@ -19,7 +19,9 @@ jobs:
     - name: Build Site
       run: npm run prod
     - name: Stage Files
-      run: git add build_production 
+      run: |
+        git pull origin main
+        git add build_production 
     - name: Commit files
       run: | 
         git config --local user.email "actions@github.com"
