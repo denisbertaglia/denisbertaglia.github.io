@@ -20,8 +20,7 @@ jobs:
       run: npm run prod
     - name: Stage Files
       run: |
-        git pull origin main
-        git add build_production 
+        git add -f build_production
     - name: Commit files
       run: | 
         git config --local user.email "actions@github.com"
@@ -29,4 +28,5 @@ jobs:
         git commit -m "Build for deploy"
     - name: Publish
       run: |
-        git subtree push --prefix build_production origin gh-pages
+        git subtree split --prefix build_production -b gh-pages
+        git push -f origin gh-pages:gh-pages
