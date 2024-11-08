@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'https://denisbertaglia.github.io',
+    'baseUrl' => '',
     'production' => false,
     'siteName' => 'Denis Bertaglia',
     'siteDescription' => 'Denis\' site',
@@ -12,7 +12,7 @@ return [
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Author Name', // Default author, if not provided in a post
+            'author' => 'Denis', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
         ],
