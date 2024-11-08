@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'https://denisbertaglia.github.io',
     'production' => false,
     'siteName' => 'Denis Bertaglia',
     'siteDescription' => 'Denis\' site',
